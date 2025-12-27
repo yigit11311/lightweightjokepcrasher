@@ -2,7 +2,6 @@ import os
 import time
 print("System crasher, will fixed if restarted/shutdowned.U will dont be able to use until u close physically.")
 print("NOTE AGAIN, IF U WANNA USE AGAIN THE PC, PSYCHICALLY SHUTDOWN PC")
-bekleme_seyi = 0
 def program():
     os.listvolumes()
     os.listdrives()
@@ -13,4 +12,5 @@ def program():
     program()
 print("If u dont close, will start in 5 seconds.")
 time.sleep(5)
+
 program()
